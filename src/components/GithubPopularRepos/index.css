@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Lobster';
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.language-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 60px;
+}
+.list-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin: 10px;
+}
